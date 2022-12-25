@@ -25,7 +25,7 @@ var S = {
     } else {
       //S.UI.simulate('to start|#icon thumbs-up|#countdown 3||');
 
-      S.UI.simulate('|#countdown 10||愿你|时时刻刻|快乐相伴|分分秒秒|好运缠绵|日日夜夜|安康为伴|年年岁岁|幸福开颜|朝朝暮暮|如意携腕|新年快乐|愿你|常与开心做伴|2021|有你|足矣|#icon heart|');
+      S.UI.simulate('|#countdown 10||林夕瑶|愿你|时时刻刻|快乐相伴|分分秒秒|好运缠绵|日日夜夜|安康为伴|年年岁岁|幸福开颜|朝朝暮暮|如意携腕|新年快乐|愿你|常与开心做伴|2023|有你|足矣|#icon heart|');
     }
 
     S.Drawing.loop(function () {
@@ -208,7 +208,7 @@ S.UI = (function () {
           break;
 
         case 'icon':
-          S.ShapeBuilder.imageFile('/images/heart.png', function (obj) {
+          S.ShapeBuilder.imageFile('/heart.png', function (obj) {
             S.Shape.switchShape(obj);
           });
           break;
